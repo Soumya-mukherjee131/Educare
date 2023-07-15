@@ -1,0 +1,111 @@
+.collapse ul li a {
+    color: #102d47 !important;
+    text-decoration: none;
+}
+.collapse ul li a:hover {
+    transition: .3s;
+    color: #f24d5d !important;
+    text-decoration: underline;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    transition: .3s;
+    color: #f24d5d !important;
+    text-decoration: underline;
+}
+.dropdown-menu li a:hover {
+    color: #f24d5d !important;
+    text-decoration: underline;
+}
+.number-and-mail-box {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.number-and-mail-box a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.number-and-mail-box a:hover{
+    font-weight: 700;
+    color: #f24d5d;
+}
+.contactbox{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.contactbox a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.contactbox a:hover{
+    font-weight: 700;
+    color: #f24d5d;
+}
+.contactbox {
+    align-items: end;
+}
+.container-fluid {
+    height: 10vh;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navbar-brand {
+    font-weight: 900;
+    font-size: 30px;
+    font-stretch: expanded;
+}
+.blankspace2 {
+    height: 3vh;
+    width: auto;
+    background-color: #102d47;
+    border: 2px solid #102d47;
+    border-top: 1px solid white;
+    border-style: dashed;
+}
+.learn-btn{
+    background-color: #102d47;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+.learn-btn:hover {
+    color: #f24d5d;
+    font-weight: 600;
+}
+.bd-placeholder-img {
+    opacity: 0.9;
+}
+.col p {
+    font-size: medium;
+    font-weight: 400;
+}
+.footdivanimation{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    animation: myfirst 10s linear 2s infinite;
+  }
+  @keyframes myfirst {
+    0%   { left:0px; top:0px;}
+    25%  { left:300px; top:0px;}
+    50%  { left:150px; top:300px;}
+    100% {left:0px; top:0px;}
+  }
+.text-end button:hover {
+    color: #f14758;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.modal-footer button:hover {
+    text-decoration: underline;
+}

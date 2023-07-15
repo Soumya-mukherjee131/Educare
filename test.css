@@ -1,0 +1,692 @@
+    /* Basic define  */
+    /* * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 800;
+    } */
+/* Starting the Navigation bars  */
+/* Starting the first nav bar  */
+/* .first {
+    display: flex;
+    -ms-flex-align: center;
+    border: 2px solid #102d47;
+    background-color:#102d47;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.first .btn {
+    width: 60%;
+}
+.first .btn a{
+    padding-top: 3px;
+    margin: 0px 9px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.first .btn a:hover {
+   color: #f24d5d;
+}
+.first .divsearch {
+    width: 30%;
+    padding-left: 270px;
+}
+ .first .divsearch button:hover {
+    color: #f24d5d;
+} 
+    .box2 {
+        margin: 5px;
+        height: auto;
+        position: sticky;
+        top:1px;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: rgb(255, 255, 255);
+        box-shadow:  5px 10px 18px #888888;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        margin: 2px;
+    }
+    .logoimg {
+        padding: 10px 12px;
+        width: 10%;
+    }
+    .logoimg img {
+        width: 90px;
+        height: 60px;
+        border-radius: 40%;
+        filter: invert(90%);
+    }
+    .logo {
+        margin:5px;
+        width: 25%;
+        height: 10%;
+        font-size: 29px;
+        font-weight: 800;
+    }
+    .menu {
+        margin: 5px;
+        width: 70%;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu ul li{ 
+
+        list-style-type: none ;
+        font-size: 1rem;
+    }
+    .menu ul li a{
+        color: #102d47;
+        padding: 3px 22px;
+        text-decoration: none;
+    }
+    .menu ul li a:hover{
+        transition: all 0.4s ease;
+        text-decoration: underline;
+        color: #f24d5d;
+    }
+    .img-slider {
+    width: 100%;
+    height: 400px;
+    background-image: url('heri.jpg');
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-delay: 5s;
+    animation: changeimg 50s linear infinite;
+}
+@keyframes changeimg {
+    0% {background-image: url('heri.jpg');}
+    20% {background-image: url('iem.jpg');}
+    50% {background-image: url('ju.jpg');}
+    75% {background-image: url('makaut.jpg');}
+    100% {background-image: url('sxv.jpg');}
+} */
+/* Sliding iamge end  */
+/* End of last nav bar  */
+/* End of navigations bars  */
+
+/* starting the learn part  */
+/* .andiv {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  #div1 {animation-timing-function: linear;}
+  #div2 {animation-timing-function: ease;}
+  #div3 {animation-timing-function: ease-in;}
+  #div4 {animation-timing-function: ease-out;}
+  #div5 {animation-timing-function: ease-in-out;}
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  } */
+/* .andiv {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;  
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    from { left:0px; top:0px;}
+    to { left:200px; top:0px;}
+  }
+.learnsec {
+    margin: 70px;
+}
+.learndiv {
+margin: 2px;
+display: flex;
+}
+.learndivcls1 {
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 65px;
+padding-right: 51px;
+margin: 2px;
+width: 60%;
+}
+.learndivcls1 h1 {
+padding-left: 60px;
+width: 300px;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+font-family: sans-serif;
+font-size: 32px;
+}
+.learndivp {
+width: 100%;
+height: 200px;
+padding-top: 50px;
+background-color: rgba(234, 238, 243, 0.623);
+color:#102d47;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+}
+.learndivp p {
+    font-weight: 300;
+    font-size: 25px;
+}
+.learndivcls2 {
+margin: 10px;
+display: inline-block;
+}
+.learndivcls2 button {
+    width: 250px;
+    height: 65px;
+    background-color: #102d47;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.learndivcls2 button:hover {
+    color: #f24d5d;
+}
+.learndivcls3 {
+margin: 2px;
+width: 40%;
+}
+.learndivcls3 img {
+    border: 2px solid black;
+    border-radius: 50%;
+} */
+
+/* ending learn part animation  */
+/* Ending of learn part  */
+
+/* starting of student testimonials  */
+/* .sec1 {
+    background-color: rgb(222, 226, 230);
+    margin: 25px;
+    height: 400px;
+}
+.divtestimonial {
+    margin: 5px;
+    height: auto;
+}
+.divtestimonial H1 {
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.divtestimonial2 {
+    margin: 5px;
+    display: flex;
+    height: auto;
+}
+.divtestimonial3 {
+    display: flex;
+    -ms-flex-item-align: center;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    width: 33%;
+}
+.divtestimonial3:hover {
+    border: 1px solid black;
+    background-color: rgb(2, 0, 95);
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+}
+.divtestimonial4 {
+    margin: 5px;
+    text-align: center;
+    height: auto;
+}
+.testimonial_iamge {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+} */
+/* Ending of students testimonials  */
+
+/* String the footer part  */
+/* .container{
+    background-color:#102d47;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin: 12px;
+    padding: 12px;
+}
+.footdivanimation{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    animation: myfirst 10s linear 2s infinite;
+  }
+  @keyframes myfirst {
+    0%   { left:0px; top:0px;}
+    25%  { left:300px; top:0px;}
+    50%  { left:150px; top:300px;}
+    100% {left:0px; top:0px;}
+  }
+.company {
+    display:flex ;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.CLASS_DIVS{
+    align-items: center;
+    margin: 24px;
+    padding: 15px;
+    width: 190px;
+}
+.CLASS_DIVS h2 {
+    text-align: left;
+    height: 45px
+}
+.CLASS_DIVS img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.CLASS_DIVS p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.CLASS_NAVS ul li a{
+    color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+}
+.CLASS_NAVS ul li a:hover {
+    color: #f24d5d;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+.CLASS_DIV {
+    display: flex;
+}
+.subscribe {
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+}
+.subscribe h2, .subscribe p{
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+.textarea{
+    margin: 5px;
+    padding-top: 50px;
+    width: 50%;
+    text-align: center;
+}
+.textarea input{
+    width: 300px;
+    height: 55px;
+}
+.textarea button {
+    width: 160px;
+    height: 55px;
+}
+.textarea button:hover {
+    color: #f24d5d;
+}
+.lastfooter {
+    display: flex;
+    width: auto;
+}
+.div-one{
+    width: 50%;
+    height: auto;
+    margin: 5px;
+}
+.div-one ul {
+display: flex;
+}
+.div-one ul li{ 
+list-style-type: none ;
+font-size: 1rem;
+}
+.div-one ul li a{
+color: #ffffff;
+padding: 3px 22px;
+text-decoration: none;
+}
+.div-one ul li a:hover{
+transition: all 0.4s ease;
+text-decoration: underline;
+color: #f24d5d;
+}
+.div-two {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.inner-div1 {
+    margin: 2px;
+    width: 1auto;  
+    font-size: 17px;
+}
+.inner-div2 {
+    margin: 2px;
+    width: auto;
+    font-size: 17px;
+}
+.inner-div3 {
+    margin: 2px;
+    width: auto;
+    font-size: 17px;
+}
+.inner-div4 {
+    margin: 2px;
+    width: auto;
+    font-size: 17px;
+}
+.inner-div1 a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+.inner-div2 a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+.inner-div3 a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+.inner-div4 a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+.inner-div1 a:hover{
+    color: #f24d5d;
+}
+.inner-div2 a:hover {
+    color: #f24d5d;
+}
+.inner-div3 a:hover {
+    color: #f24d5d;
+}
+.inner-div4 a:hover {
+    color: #f24d5d;
+} */
+/* Ending the footer part  */
+
+
+
+/* login start  */
+/* .container1 {
+    background: url('bgi/login2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    height: auto;
+}
+.fbox {
+    margin: 10px;
+    padding: 5px;
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.fboxh {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(48, 59, 59);
+    text-align: center; 
+    width: 100%;
+    margin: 15px;
+    margin-bottom: 40px;
+    height: 5vh;
+}
+.box {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.fbox1 {
+    background: url('login.png') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 5px;
+    width: 50%;
+    height: 60vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+.fbox2 {
+    margin: 5px;
+    width: 50%;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.boxone {
+    width: auto;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+.boxone input {
+    background: none;
+    width: 75%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    margin-bottom: 5px;
+}
+.boxtwo {
+    text-align: center;
+    font-size: 1rem;
+    width: auto;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.logbtn {
+    border: 1px solid #102d47;
+    background-color: #102d47;
+    color: azure;
+    /* position: relative; */
+  /*  left: 10px;
+    font-size: 17px;
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.logbtn:hover {
+    color: #f24d5d;
+}
+.boxthree {
+    text-align: center;
+    width: auto;
+    height: 30vh;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.boxthree p {
+    margin-bottom: 10px;
+}
+.btncls {
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+}
+.sbox {
+    margin: 10px;
+    padding: 5px;
+    width: 35%;
+    height: 70vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sbox iframe {
+    height: 100%;
+    width: 100%;
+} */
+
+/* end  */
+
+/* .collapse ul li a {
+    color: #102d47 !important;
+    text-decoration: none;
+}
+.collapse ul li a:hover {
+    transition: .3s;
+    color: #f24d5d !important;
+    text-decoration: underline;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    transition: .3s;
+    color: #f24d5d !important;
+    text-decoration: underline;
+}
+.dropdown-menu li a:hover {
+    color: #f24d5d !important;
+    text-decoration: underline;
+}
+.number-and-mail-box {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.number-and-mail-box a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.number-and-mail-box a:hover{
+    font-weight: 700;
+    color: #f24d5d;
+}
+.contactbox{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.contactbox a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.contactbox a:hover{
+    font-weight: 700;
+    color: #f24d5d;
+}
+.contactbox {
+    align-items: end;
+}
+.container-fluid {
+    height: 10vh;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navbar-brand {
+    font-weight: 900;
+    font-size: 30px;
+    font-stretch: expanded;
+}
+.blankspace2 {
+    height: 3vh;
+    width: auto;
+    background-color: #102d47;
+    border: 2px solid #102d47;
+    border-top: 1px solid white;
+    border-style: dashed;
+}
+.learn-btn{
+    background-color: #102d47;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+.learn-btn:hover {
+    color: #f24d5d;
+    font-weight: 600;
+}
+.bd-placeholder-img {
+    opacity: 0.9;
+}
+.col p {
+    font-size: medium;
+    font-weight: 400;
+}
+.footdivanimation{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    animation: myfirst 10s linear 2s infinite;
+  }
+  @keyframes myfirst {
+    0%   { left:0px; top:0px;}
+    25%  { left:300px; top:0px;}
+    50%  { left:150px; top:300px;}
+    100% {left:0px; top:0px;}
+  }
+
+
+.text-end button:hover {
+    color: #f14758;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.modal-footer button:hover {
+    text-decoration: underline;
+} */
+
+
+/* body {
+    background: url('bgi/login2.jpg');
+    background-image: url('bgi/login2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} */
